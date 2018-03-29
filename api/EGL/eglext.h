@@ -33,12 +33,12 @@ extern "C" {
 ** used to make the header, and the header can be found at
 **   http://www.khronos.org/registry/egl
 **
-** Khronos $Git commit SHA1: feaaeb19e1 $ on $Git commit date: 2018-02-26 20:49:02 -0800 $
+** Khronos $Git commit SHA1: 26e58f6ff0 $ on $Git commit date: 2018-03-29 11:35:24 -0400 $
 */
 
 #include <EGL/eglplatform.h>
 
-#define EGL_EGLEXT_VERSION 20180228
+#define EGL_EGLEXT_VERSION 20180329
 
 /* Generated C header for:
  * API: egl
@@ -576,6 +576,18 @@ EGLAPI EGLBoolean EGLAPIENTRY eglPresentationTimeANDROID (EGLDisplay dpy, EGLSur
 #define EGL_D3D9_DEVICE_ANGLE             0x33A0
 #define EGL_D3D11_DEVICE_ANGLE            0x33A1
 #endif /* EGL_ANGLE_device_d3d */
+
+#ifndef EGL_ANGLE_platform_angle
+#define EGL_ANGLE_platform_angle 1
+#define EGL_PLATFORM_ANGLE_ANGLE          0x3202
+#define EGL_PLATFORM_ANGLE_TYPE_ANGLE     0x3203
+#define EGL_PLATFORM_ANGLE_MAX_VERSION_MAJOR_ANGLE 0x3204
+#define EGL_PLATFORM_ANGLE_MAX_VERSION_MINOR_ANGLE 0x3205
+#define EGL_PLATFORM_ANGLE_DEBUG_LAYERS_ENABLED 0x3451
+#define EGL_PLATFORM_ANGLE_TYPE_DEFAULT_ANGLE 0x3206
+#define EGL_PLATFORM_ANGLE_DEVICE_TYPE_HARDWARE_ANGLE 0x320A
+#define EGL_PLATFORM_ANGLE_DEVICE_TYPE_NULL_ANGLE 0x345E
+#endif /* EGL_ANGLE_platform_angle */
 
 #ifndef EGL_ANGLE_query_surface_pointer
 #define EGL_ANGLE_query_surface_pointer 1

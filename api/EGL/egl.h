@@ -33,12 +33,12 @@ extern "C" {
 ** used to make the header, and the header can be found at
 **   http://www.khronos.org/registry/egl
 **
-** Khronos $Git commit SHA1: feaaeb19e1 $ on $Git commit date: 2018-02-26 20:49:02 -0800 $
+** Khronos $Git commit SHA1: 26e58f6ff0 $ on $Git commit date: 2018-03-29 11:35:24 -0400 $
 */
 
 #include <EGL/eglplatform.h>
 
-/* Generated on date 20180228 */
+/* Generated on date 20180329 */
 
 /* Generated C header for:
  * API: egl

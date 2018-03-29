@@ -654,4 +654,9 @@ extension EGL_KHR_display_reference {
     flags       public
     filename    extensions/KHR/EGL_KHR_display_reference.txt
 }
-# Next free extension number: 127
+extension EGL_ANGLE_platform_angle {
+    number      127
+    flags       public
+    filename    extensions/ANGLE/EGL_ANGLE_platform_angle.txt
+}
+# Next free extension number: 128

@@ -319,6 +319,8 @@ include_once("../../assets/static_pages/khr_page_top.php");
 </li>
 <li value=126> <a href="extensions/KHR/EGL_KHR_display_reference.txt">EGL_KHR_display_reference</a>
 </li>
+<li value=127> <a href="extensions/ANGLE/EGL_ANGLE_platform_angle.txt">EGL_ANGLE_platform_angle</a>
+</li>
 </ol>
 
 <h6> Providing Feedback on the Registry </h6>
